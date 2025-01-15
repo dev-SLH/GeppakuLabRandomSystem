@@ -2,7 +2,7 @@
 
 ## 📦 Modern UI Pack 사용 안내
 
-이 프로젝트는 Unity 에셋 스토어의 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-150824) 을 사용하고 있습니다.
+이 프로젝트는 Unity 에셋 스토어의 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 사용하고 있습니다.
 
 ### ✅ **UIManager 프리셋 적용 가이드**
 
@@ -26,7 +26,7 @@
 ### 🚀 **추가 정보:**
 
 - `.gitignore` 설정에 의해 **유료 에셋의 원본 파일은 포함되지 않고**, `.meta` 파일만 제공됩니다.
-- 프로젝트를 원활히 실행하려면, Unity Asset Store에서 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-150824) 을 구매 후 임포트하세요.
+- 프로젝트를 원활히 실행하려면, Unity Asset Store에서 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 구매 후 임포트하세요.
 
 ✅ **이제 프로젝트를 안전하게 공유하고, 협업할 수 있습니다!**
 
