@@ -1,0 +1,27 @@
+For 月白 累 / Geppaku Lui
+
+Developed by by 雪霊花(ソルリョンファ)_No.897
+X（旧 Twitter）:@slh3951
+
+--------------------
+Made with Unity
+
+UI Asset
+
+Modern UI Pack
+https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717
+
+Used Font
+
+MS Mincho
+
+Morena
+https://befonts.com/morena-typeface.html
+
+瀞ノグリッチ黒体・瀞ノグリッチ明朝
+https://booth.pm/ja/items/3041172
+
+Image
+
+Moon
+https://opengameart.org/content/moon-overlay-texture

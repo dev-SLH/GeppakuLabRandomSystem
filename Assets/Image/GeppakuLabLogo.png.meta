@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 139a84cfe60d34a4199ae9222b0f1390
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2383545435130587545
+    second: GeppakuLabLogo_0
+  - first:
+      213: -5472768171430696949
+    second: GeppakuLabLogo_1
+  - first:
+      213: 1176692336359987313
+    second: GeppakuLabLogo_2
+  - first:
+      213: -1899623899449989126
+    second: GeppakuLabLogo_3
+  - first:
+      213: 177745014652090469
+    second: GeppakuLabLogo_4
+  - first:
+      213: -8737955540979825027
+    second: GeppakuLabLogo_5
+  - first:
+      213: 6403026372711038849
+    second: GeppakuLabLogo_6
+  - first:
+      213: -1219323934513697429
+    second: GeppakuLabLogo_7
+  - first:
+      213: -2432007133963712938
+    second: GeppakuLabLogo_8
+  - first:
+      213: 1058616617466915288
+    second: GeppakuLabLogo_9
+  - first:
+      213: 356725173137038659
+    second: GeppakuLabLogo_10
+  - first:
+      213: 9131819865753855426
+    second: GeppakuLabLogo_11
+  - first:
+      213: 3764772490725900220
+    second: GeppakuLabLogo_12
+  - first:
+      213: -7746887998482648445
+    second: GeppakuLabLogo_13
+  - first:
+      213: -7329731778565325835
+    second: GeppakuLabLogo_14
+  - first:
+      213: -8924848664820948688
+    second: GeppakuLabLogo_15
+  - first:
+      213: 9111610805563611201
+    second: GeppakuLabLogo_16
+  - first:
+      213: -3538777077773621841
+    second: GeppakuLabLogo_17
+  - first:
+      213: 8243196991974816352
+    second: GeppakuLabLogo_18
+  - first:
+      213: -7914447683954174939
+    second: GeppakuLabLogo_19
+  - first:
+      213: 94806537555350950
+    second: GeppakuLabLogo_20
+  - first:
+      213: 1656241695020186538
+    second: GeppakuLabLogo_21
+  - first:
+      213: 2162775741892259825
+    second: GeppakuLabLogo_22
+  - first:
+      213: -2345355146930824525
+    second: GeppakuLabLogo_23
+  - first:
+      213: -1923310596232037224
+    second: GeppakuLabLogo_24
+  - first:
+      213: -9220044706982034701
+    second: GeppakuLabLogo_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GeppakuLabLogo_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 217
+        width: 109
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76699092e02fbeed0800000000000000
+      internalID: -2383545435130587545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 219
+        width: 70
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b082fc31852dc04b0800000000000000
+      internalID: -5472768171430696949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_2
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 318
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17859ae0273745010800000000000000
+      internalID: 1176692336359987313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_3
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 217
+        width: 79
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7e07ac02e23a5e0800000000000000
+      internalID: -1899623899449989126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 217
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5683fea262a777200800000000000000
+      internalID: 177745014652090469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 182
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76cdbc2bbb8cb680800000000000000
+      internalID: -8737955540979825027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 182
+        width: 79
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f36e0bf8e1cd850800000000000000
+      internalID: 6403026372711038849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_7
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 217
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ded218757141fe0800000000000000
+      internalID: -1219323934513697429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_8
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 217
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65680e0a566cf3ed0800000000000000
+      internalID: -2432007133963712938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_9
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 233
+        width: 16
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9e07d6436f0be00800000000000000
+      internalID: 1058616617466915288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_10
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 219
+        width: 63
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dd54ba7a753f400800000000000000
+      internalID: 356725173137038659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_11
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 217
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c52d1319cdbabe70800000000000000
+      internalID: 9131819865753855426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 133
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf31e932a82f3430800000000000000
+      internalID: 3764772490725900220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 66
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38274bff8668d7490800000000000000
+      internalID: -7746887998482648445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 115
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbb8bf28cf874a90800000000000000
+      internalID: -7329731778565325835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_15
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 60
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0316a3bdc61942480800000000000000
+      internalID: -8924848664820948688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 66
+        width: 101
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148da3590c1f27e70800000000000000
+      internalID: 9111610805563611201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_17
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 123
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5220c3ffcb3eec0800000000000000
+      internalID: -3538777077773621841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_18
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 65
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a3a386df7b56270800000000000000
+      internalID: 8243196991974816352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_19
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 133
+        width: 68
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5249f7493cb3a2290800000000000000
+      internalID: -7914447683954174939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_20
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 66
+        width: 101
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a51f592b02d05100800000000000000
+      internalID: 94806537555350950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_21
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 64
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab7ed5eb072cf610800000000000000
+      internalID: 1656241695020186538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 97
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffe1501419b30e10800000000000000
+      internalID: 2162775741892259825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_23
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 100
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3badd0b8bef937fd0800000000000000
+      internalID: -2345355146930824525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_24
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 64
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c38dee3370f45e0800000000000000
+      internalID: -1923310596232037224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeppakuLabLogo_25
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 63
+        width: 98
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f28d1b5032db0080800000000000000
+      internalID: -9220044706982034701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GeppakuLabLogo_0: -2383545435130587545
+      GeppakuLabLogo_1: -5472768171430696949
+      GeppakuLabLogo_10: 356725173137038659
+      GeppakuLabLogo_11: 9131819865753855426
+      GeppakuLabLogo_12: 3764772490725900220
+      GeppakuLabLogo_13: -7746887998482648445
+      GeppakuLabLogo_14: -7329731778565325835
+      GeppakuLabLogo_15: -8924848664820948688
+      GeppakuLabLogo_16: 9111610805563611201
+      GeppakuLabLogo_17: -3538777077773621841
+      GeppakuLabLogo_18: 8243196991974816352
+      GeppakuLabLogo_19: -7914447683954174939
+      GeppakuLabLogo_2: 1176692336359987313
+      GeppakuLabLogo_20: 94806537555350950
+      GeppakuLabLogo_21: 1656241695020186538
+      GeppakuLabLogo_22: 2162775741892259825
+      GeppakuLabLogo_23: -2345355146930824525
+      GeppakuLabLogo_24: -1923310596232037224
+      GeppakuLabLogo_25: -9220044706982034701
+      GeppakuLabLogo_3: -1899623899449989126
+      GeppakuLabLogo_4: 177745014652090469
+      GeppakuLabLogo_5: -8737955540979825027
+      GeppakuLabLogo_6: 6403026372711038849
+      GeppakuLabLogo_7: -1219323934513697429
+      GeppakuLabLogo_8: -2432007133963712938
+      GeppakuLabLogo_9: 1058616617466915288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
