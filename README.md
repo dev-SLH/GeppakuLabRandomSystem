@@ -12,11 +12,11 @@
 
 ## 📽️ 시연 영상
 
-### 🎥 **설정 및 옵션 시연**
-[Settings Showcase](https://youtu.be/j1sl5BKaaOg)
+### 🎥 설정 및 옵션 시연
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j1sl5BKaaOg" frameborder="0" allowfullscreen></iframe>
 
-### 🎥 **난수 생성 프로그램 시연**
-[GeppakuLab ランダム·システム Showcase](https://youtu.be/RKB7lpRkYCU)
+### 🎥 난수 생성 프로그램 시연
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RKB7lpRkYCU" frameborder="0" allowfullscreen></iframe>
 
 ---
 
