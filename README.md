@@ -1,3 +1,5 @@
+[![EN](https://img.shields.io/badge/Language-English-blue)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20En.md) [![KR](https://img.shields.io/badge/Language-Korean-red)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20Kr.md)
+
 # GeppakuLab Random System プロジェクト
 
 🌙 **GeppakuLab Random System** は、バーチャルユーチューバー **月白 累 (Geppaku Lui)** のために特別に開発された乱数生成プログラムです。
