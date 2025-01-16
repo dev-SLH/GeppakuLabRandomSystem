@@ -1,4 +1,4 @@
-[![JP](https://img.shields.io/badge/Language-Japanese-blue)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/README.md) [![EN](https://img.shields.io/badge/Language-English-red)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20Kr.md)
+[![JP](https://img.shields.io/badge/Language-Japanese-blue)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/README.md) [![EN](https://img.shields.io/badge/Language-English-red)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20En.md)
 
 # GeppakuLab Random System 프로젝트
 
