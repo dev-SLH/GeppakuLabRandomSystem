@@ -1,3 +1,5 @@
+[![JP](https://img.shields.io/badge/Language-Japanese-blue)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20En.md) [![KR](https://img.shields.io/badge/Language-Korean-red)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20Kr.md)
+
 # GeppakuLab Random System Project
 
 🌙 **GeppakuLab Random System** is a random number generator program developed as a special gift for the Virtual YouTuber **月白 累 (Geppaku Lui)**.
