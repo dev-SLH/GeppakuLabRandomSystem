@@ -10,6 +10,16 @@
 
 ---
 
+## 📽️ 시연 영상
+
+### 🎥 **설정 및 옵션 시연**
+[Settings Showcase](https://youtu.be/j1sl5BKaaOg)
+
+### 🎥 **난수 생성 프로그램 시연**
+[GeppakuLab ランダム·システム Showcase](https://youtu.be/RKB7lpRkYCU)
+
+---
+
 ## 📦 설치 방법
 1. 최신 버전을 [Releases](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases) 섹션에서 다운로드하세요.
 2. 제공된 `GeppakuLab_RandomSystem_Installer.exe` 파일을 실행하세요.
