@@ -1,161 +1,161 @@
-# GeppakuLab Random System 프로젝트
+# GeppakuLab Random System プロジェクト
 
-🌙 **GeppakuLab Random System** 은 버추얼 유튜버 **月白 累 (Geppaku Lui)** 를 위해 제작한 난수 생성 프로그램입니다.
+🌙 **GeppakuLab Random System** は、バーチャルユーチューバー **月白 累 (Geppaku Lui)** のために特別に開発された乱数生成プログラムです。
 
-## 🎯 특징
-- **난수 생성:** 범위와 개수를 사용자 지정할 수 있는 난수 생성.
-- **정렬 설정:** 오름차순 및 내림차순 정렬 가능.
-- **중복 제어:** 중복 허용/금지 설정 가능.
-- **최소 해상도 제한:** 사용자가 정의한 최소 해상도 이하로 창 크기 조정 방지.
+## 🎯 特徴
+- **乱数生成:** 範囲と数をカスタマイズ可能な乱数生成。
+- **ソートオプション:** 昇順または降順で結果を並び替え可能。
+- **重複制御:** 結果の重複を許可または禁止。
+- **最小解像度ロック:** 定義された最小解像度以下にウィンドウをリサイズすることを防止。
 
 ---
 
-## 📽️ 시연 영상
+## 📽️ デモ動画
 
-### 🎥 **난수 생성 프로그램 시연**
+### 🎥 **乱数生成プログラムの紹介**
 [![GeppakuLab ランダム·システム Showcase](https://img.youtube.com/vi/j1sl5BKaaOg/0.jpg)](https://youtu.be/j1sl5BKaaOg)
 
-### 🎥 **설정 및 옵션 시연**
+### 🎥 **設定とオプションの紹介**
 [![Settings Showcase](https://img.youtube.com/vi/RKB7lpRkYCU/0.jpg)](https://youtu.be/RKB7lpRkYCU)
 
 ---
 
-## 📦 설치 방법
-1. 최신 버전을 [Releases](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases) 섹션에서 다운로드하세요.
-2. 제공된 `GeppakuLab_RandomSystem_Installer.exe` 파일을 실행하세요.
-3. 화면의 지시에 따라 설치를 완료하세요.
+## 📦 インストール方法
+1. 最新バージョンを [Releases](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases) セクションからダウンロードしてください。
+2. 提供された `GeppakuLab_RandomSystem_Installer.exe` ファイルを実行してください。
+3. 画面の指示に従ってインストールを完了してください。
 
 ---
 
-## 🛠️ 시스템 요구 사항
-- **운영체제:** Windows 10 이상
-- **런타임:** .NET Framework 4.7.2 이상
+## 🛠️ システム要件
+- **オペレーティングシステム:** Windows 10 以上
+- **ランタイム:** .NET Framework 4.7.2 以上
 
 ---
 
-## 📖 사용 방법
+## 📖 使用方法
 
-1. **범위 설정:** 난수의 최소값과 최대값을 설정합니다.
-2. **개수 설정:** 생성할 난수의 개수를 선택합니다.
-3. **생성:** `생성` 버튼을 클릭하여 난수를 생성합니다.
-4. **정렬 및 재정렬:** 드롭다운에서 정렬 옵션(오름차순/내림차순)을 선택합니다.
-5. **결과 복사:** 생성된 난수를 클립보드에 복사합니다.
-
----
-
-## 🛡️ 라이선스
-이 프로젝트는 **MIT 라이선스**로 공개되어 있습니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
+1. **範囲設定:** 乱数の最小値と最大値を設定します。
+2. **数設定:** 生成する乱数の数を選択します。
+3. **生成:** `生成` ボタンをクリックして乱数を生成します。
+4. **ソートと再ソート:** ドロップダウンメニューで並び替えオプション（昇順または降順）を選択します。
+5. **結果のコピー:** 生成された乱数をクリップボードにコピーします。
 
 ---
 
-## 💌 크레딧
-- **개발자:** [설령화(雪霊花_ソルリョンファ)-SLH](https://x.com/slh3951)
-- **Developed for:** [Geppaku Lui (月白 累)](https://www.youtube.com/@Geppaku_Lui)
+## 🛡️ ライセンス
+このプロジェクトは **MIT ライセンス** の下で公開されています。詳細については `LICENSE` ファイルをご覧ください。
 
 ---
 
-## 🚀 Unity 프로젝트 시작하기
-
-### 1. 필요한 에셋 임포트
-1. [Modern UI Pack](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 Unity Asset Store에서 구매하고 다운로드하세요.
-2. Unity 프로젝트에 Modern UI Pack을 임포트합니다.
-
-### 2. 프리셋 적용
-1. Unity 에디터 상단 메뉴에서 **Tools > Modern UI Pack > Apply UIManager Preset**을 클릭하세요.
-2. **프리셋이 자동으로 적용되지 않을 경우:**
-   - `Assets/Modern UI Pack/Resources/` 경로에서 `MUIP Manager.asset`을 선택하고,
-     **Inspector**에서 `Preset` 파일을 직접 드래그하여 적용하세요.
-
-### 3. 샘플 씬 실행
-1. 제공된 샘플 씬(`Assets/Scenes/GeppakuLabRandomSystem.unity`)을 열어주세요.
-2. Unity Editor에서 **Play** 버튼을 눌러 프로젝트를 실행하세요.
-
-
-## ⚠️ Unity 프로젝트 사용 시 주의점
-
-### 📌 필수 에셋 확인
-- 프로젝트에 필요한 모든 패키지와 에셋을 반드시 임포트하세요.
-- 필수 에셋: [Modern UI Pack](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) (구매 후 임포트 필요)
-
-### 📌 Unity 버전 호환성
-- 권장 Unity 버전: **6000.0.32f1 이상**
-- 더 낮은 버전에서는 일부 기능이 제대로 작동하지 않을 수 있습니다.
-
-### 📌 씬 설정 변경 주의
-- 제공된 샘플 씬을 그대로 사용하세요. (샘플 씬 위치: `Assets/Scenes/GeppakuLabRandomSystem.unity`)
-- ⚠️ **주의:** 씬 설정을 변경하면 의도한 대로 동작하지 않을 가능성이 있습니다.
-
-### 📌 플러그인 설정 변경 금지
-- 프로젝트에서 사용 중인 플러그인의 설정을 수정하지 마세요.
-
-### 📌 정기 저장 권장
-- 작업 중 데이터 손실을 방지하기 위해 **정기적으로 프로젝트를 저장**하세요.
+## 💌 クレジット
+- **開発者:** [설령화(雪霊花)-SLH](https://x.com/slh3951)
+- **Designed for:** [Geppaku Lui (月白 累)](https://www.youtube.com/@Geppaku_Lui)
 
 ---
 
-## 📦 Modern UI Pack 사용 안내
+## 🚀 Unity プロジェクトの始め方
 
-이 프로젝트는 Unity 에셋 스토어의 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 사용하고 있습니다.
+### 1. 必要なアセットのインポート
+1. [Modern UI Pack](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) を Unity Asset Store から購入してダウンロードしてください。
+2. Unity プロジェクトに Modern UI Pack をインポートしてください。
 
-### ✅ **UIManager 프리셋 적용 가이드**
+### 2. プリセットの適用
+1. Unity エディタの上部メニューから **Tools > Modern UI Pack > Apply UIManager Preset** をクリックしてください。
+2. **プリセットが自動適用されない場合:**
+   - `Assets/Modern UI Pack/Resources/` ディレクトリに移動し、`MUIP Manager.asset` を選択。
+   - **Inspector** にプリセットファイルをドラッグ＆ドロップしてください。
 
-프로젝트를 처음 열었을 때, **MUIP Manager** 프리셋이 제대로 적용되지 않을 수 있습니다. 다음 단계를 따라 프리셋을 적용해주세요.
-
-### 📌 **적용 방법:**
-
-1. **Unity 에디터 상단 메뉴에서:**
-   - `Tools > Modern UI Pack > Apply UIManager Preset` 클릭
-2. **자동으로 프리셋 적용:**
-   - `MUIP Manager` ScriptableObject에 `UIManager` 프리셋이 자동으로 적용됩니다.
-3. **성공 메시지 확인:**
-   - 콘솔에 `Successfully applied 'UIManager' to 'MUIP Manager'` 메시지가 출력됩니다.
-
-### 🛠️ **수동 적용 방법:**
-
-- 프리셋이 자동으로 적용되지 않을 경우:
-  1. `Assets/Modern UI Pack/Resources/` 경로에서 `MUIP Manager.asset` 수동 선택
-  2. **Inspector**에서 `Preset` 파일을 직접 드래그하여 적용
-
-### 🚀 **추가 정보:**
-
-- `.gitignore` 설정에 의해 **유료 에셋의 원본 파일은 포함되지 않고**, `.meta` 파일만 제공됩니다.
-- 프로젝트를 원활히 실행하려면, Unity Asset Store에서 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 구매 후 임포트하세요.
+### 3. サンプルシーンを実行
+1. 提供されたサンプルシーン (`Assets/Scenes/GeppakuLabRandomSystem.unity`) を開いてください。
+2. Unity エディタで **Play** ボタンを押してプロジェクトを実行してください。
 
 ---
 
-## 📝 프로젝트 구조
+## ⚠️ Unity プロジェクト使用時の注意
+
+### 📌 必須アセットの確認
+- 必要なすべてのパッケージとアセットがインポートされていることを確認してください。
+- 必須アセット: [Modern UI Pack](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717)（購入が必要）。
+
+### 📌 Unity バージョン互換性
+- 推奨 Unity バージョン: **6000.0.32f1 以上**。
+- それより古いバージョンでは一部の機能が正しく動作しない可能性があります。
+
+### 📌 シーン設定の注意
+- 提供されたサンプルシーンをそのまま使用してください。
+- ⚠️ **注意:** シーン設定を変更すると、予期しない動作が発生する可能性があります。
+
+### 📌 プラグイン設定
+- プロジェクトで使用されているプラグインの設定を変更しないでください。
+
+### 📌 定期保存を推奨
+- データ損失を防ぐため、定期的にプロジェクトを保存してください。
+
+---
+
+## 📦 Modern UI Pack の使用ガイド
+
+このプロジェクトでは、Unity Asset Store の [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) を使用しています。
+
+### ✅ **UIManager プリセット適用ガイド**
+
+**MUIP Manager** プリセットが自動的に適用されない場合、以下の手順を実行してください。
+
+### 📌 **適用方法:**
+
+1. **Unity エディタメニュー:**
+   - `Tools > Modern UI Pack > Apply UIManager Preset` に移動。
+2. **自動適用:**
+   - `UIManager` プリセットが `MUIP Manager` スクリプタブルオブジェクトに適用されます。
+3. **成功確認:**
+   - コンソールに `Successfully applied 'UIManager' to 'MUIP Manager'` メッセージが表示されることを確認してください。
+
+### 🛠️ **手動適用方法:**
+
+- プリセットが自動適用されない場合:
+  1. `Assets/Modern UI Pack/Resources/` に移動。
+  2. `MUIP Manager.asset` を選択し、**Inspector** にプリセットファイルを手動でドラッグしてください。
+
+### 🚀 **追加情報:**
+
+- `.gitignore` 設定により、有料アセットの元ファイルは含まれておらず、`.meta` ファイルのみが提供されます。
+- プロジェクトを正常に実行するには、[**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) を購入してインポートしてください。
+
+---
+
+## 📝 プロジェクト構成
 ```plaintext
 Assets/
-├── Scripts/                 # 난수 시스템의 핵심 로직
-├── UIManager                # UI 일관성을 위한 프리셋 파일
-└── Scenes/                  # 샘플 씬
+├── Scripts/                 # 乱数システムのコアロジック
+├── UIManager                # UI 一貫性のためのプリセットファイル
+└── Scenes/                  # サンプルシーン
 ```
 
 ---
 
-## 🛠️ 개발 노트
-### 주요 도전과 해결책
-- **버튼 스팸 문제:** 빠른 반응성을 유지하기 위해 디바운싱 로직을 구현하여 해결.
-- **UI 초기화 로직:** 활성 객체만 선택적으로 초기화할 수 있도록 `ClearScrollArea` 메서드 개선.
-- **프리셋 자동 적용:** 공유 프로젝트에서 UI 프리셋 일관성을 유지하기 위한 자동화 스크립트 구현.
+## 🛠️ 開発ノート
+### 主な課題と解決策
+- **ボタンスパム問題:** レスポンスの良い UI 操作を維持するためにデバウンスロジックを実装。
+- **UI リセットロジック:** アクティブなオブジェクトのみ選択的にクリアできるよう `ClearScrollArea` メソッドを強化。
+- **プリセット自動適用:** 共有プロジェクトで UI プリセットの一貫性を保つため、自動化スクリプトを実装。
 
 ---
 
-## 💬 기여하기
-새로운 기능 추가나 버그 수정을 위해 리포지토리를 포크하고 풀 리퀘스트를 생성하세요. 중요한 변경 사항의 경우, 아이디어를 먼저 논의하기 위해 이슈를 열어주세요.
+## 💬 貢献方法
+新機能の追加やバグ修正のためにリポジトリをフォークし、プルリクエストを作成してください。大幅な変更の場合は、アイデアを議論するために最初に issue を作成してください。
 
 ---
 
-## 📝 라이선스
-이 프로젝트는 MIT 라이선스로 제공됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
+## 📝 ライセンス
+このプロジェクトは MIT ライセンスの下で提供されています。詳細については `LICENSE` ファイルをご覧ください。
 
 ---
 
-## 📞 연락하기
-문의 사항이 있으면 다음 이메일로 연락해주세요: [slh3951@gmail.com]
+## 📞 お問い合わせ
+お問い合わせは以下のメールアドレスにご連絡ください: [slh3951@gmail.com]
 
 ---
 
-**GeppakuLab Random System을 이용해주셔서 감사합니다!** 🌙
+**GeppakuLab Random System をご利用いただきありがとうございます！** 🌙
 
-⚠️ **주의:** 현재 해당 프로그램에 한국어는 포함되어 있지않고 한국어 업데이트 일정은 미정입니다.
