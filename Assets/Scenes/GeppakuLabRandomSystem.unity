@@ -3212,7 +3212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114507432207867290, guid: bdb8f55c79de3ce429e354b19dc74938, type: 3}
       propertyPath: descriptionText
-      value: "For \u6708\u767D \u7D2F / Geppaku Lui\r\n\r\nDeveloped by by \u96EA\u970A\u82B1(\u30BD\u30EB\u30EA\u30E7\u30F3\u30D5\u30A1)_No.897\r\nX\uFF08\u65E7
+      value: "For \u6708\u767D \u7D2F / Geppaku Lui\r\n\r\nDeveloped by \u96EA\u970A\u82B1(\u30BD\u30EB\u30EA\u30E7\u30F3\u30D5\u30A1)_No.897\r\nX\uFF08\u65E7
         Twitter\uFF09:@slh3951\r\n\r\n--------------------\r\nMade with Unity\r\n\r\nUI
         Asset\r\n\r\nModern UI Pack\r\nhttps://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717\r\n\r\nUsed
         Font\r\n\r\nMS Mincho\r\n\r\nMorena\r\nhttps://befonts.com/morena-typeface.html\r\n\r\n\u701E\u30CE\u30B0\u30EA\u30C3\u30C1\u9ED2\u4F53\u30FB\u701E\u30CE\u30B0\u30EA\u30C3\u30C1\u660E\u671D\r\nhttps://booth.pm/ja/items/3041172\r\n\r\nImage\r\n\r\nMoon\r\nhttps://opengameart.org/content/moon-overlay-texture"
@@ -8471,7 +8471,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 127.505005, y: -27.5}
-  m_SizeDelta: {x: 0, y: 55}
+  m_SizeDelta: {x: 255.01001, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675719907
 MonoBehaviour:
@@ -10849,7 +10849,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 145.005, y: -27.5}
-  m_SizeDelta: {x: 0, y: 45}
+  m_SizeDelta: {x: 180.01, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847895105
 MonoBehaviour:
