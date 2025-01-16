@@ -12,10 +12,10 @@
 
 ## 📽️ Demonstration Videos
 
-### 🎥 **Settings and Options Showcase**
+### 🎥 **Random Number Generation Showcase**
 [![GeppakuLab ランダム·システム Showcase](https://img.youtube.com/vi/j1sl5BKaaOg/0.jpg)](https://youtu.be/j1sl5BKaaOg)
 
-### 🎥 **Random Number Generation Showcase**
+### 🎥 **Settings and Options Showcase**
 [![Settings Showcase](https://img.youtube.com/vi/RKB7lpRkYCU/0.jpg)](https://youtu.be/RKB7lpRkYCU)
 
 ---
