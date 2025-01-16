@@ -1,3 +1,5 @@
+[![JP](https://img.shields.io/badge/Language-Japanese-blue)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20En.md) [![EN](https://img.shields.io/badge/Language-English-red)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20Kr.md)
+
 # GeppakuLab Random System 프로젝트
 
 🌙 **GeppakuLab Random System** 은 버추얼 유튜버 **月白 累 (Geppaku Lui)** 를 위해 제작한 난수 생성 프로그램입니다.
