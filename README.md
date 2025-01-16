@@ -52,7 +52,7 @@
 
 ## 💌 クレジット
 - **開発者:** [설령화(雪霊花)-SLH](https://x.com/slh3951)
-- **Designed for:** [Geppaku Lui (月白 累)](https://www.youtube.com/@Geppaku_Lui)
+- **Developed for:** [Geppaku Lui (月白 累)](https://www.youtube.com/@Geppaku_Lui)
 
 ---
 
