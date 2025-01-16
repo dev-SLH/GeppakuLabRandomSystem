@@ -1,77 +1,163 @@
-# GeppakuLab Random System Project
+[![EN](https://img.shields.io/badge/Language-English-blue)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20En.md) [![KR](https://img.shields.io/badge/Language-Korean-red)](https://github.com/dev-SLH/GeppakuLabRandomSystem/blob/main/Readme%20Kr.md)
 
-## 📦 Modern UI Pack 사용 안내
+# GeppakuLab Random System プロジェクト
 
-이 프로젝트는 Unity 에셋 스토어의 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 사용하고 있습니다.
-
-### ✅ **UIManager 프리셋 적용 가이드**
-
-프로젝트를 처음 열었을 때, **MUIP Manager** 프리셋이 제대로 적용되지 않을 수 있습니다. 다음 단계를 따라 프리셋을 적용해주세요.
-
-### 📌 **적용 방법:**
-
-1. **Unity 에디터 상단 메뉴에서:**
-   - `Tools > Modern UI Pack > Apply UIManager Preset` 클릭
-2. **자동으로 프리셋 적용:**
-   - `MUIP Manager` ScriptableObject에 `UIManager` 프리셋이 자동으로 적용됩니다.
-3. **성공 메시지 확인:**
-   - 콘솔에 `Successfully applied 'UIManager' to 'MUIP Manager'` 메시지가 출력됩니다.
-
-### 🛠️ **수동 적용 방법:**
-
-- 프리셋이 자동으로 적용되지 않을 경우:
-  1. `Assets/Modern UI Pack/Resources/` 경로에서 `MUIP Manager.asset` 수동 선택
-  2. **Inspector**에서 `Preset` 파일을 직접 드래그하여 적용
-
-### 🚀 **추가 정보:**
-
-- `.gitignore` 설정에 의해 **유료 에셋의 원본 파일은 포함되지 않고**, `.meta` 파일만 제공됩니다.
-- 프로젝트를 원활히 실행하려면, Unity Asset Store에서 [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) 을 구매 후 임포트하세요.
-
-✅ **이제 프로젝트를 안전하게 공유하고, 협업할 수 있습니다!**
-
-
-
-🌙 **GeppakuLab Random System** は、バーチャルYouTuber **Geppaku Lui (月白 累)** への特別なギフトとしてデザインされたカスタム乱数生成アプリケーションです。このアプリケーションは、月白累のテーマにインスパイアされた洗練されたデザインを特徴としています:
-
-- 🎨 **カラースキーム:** #646484 (C70:M64:Y36:K0)、月白累のシグネチャーカラー。
-- 🌙 **テーマ:** 月白累のエレガントなイメージを反映した月光の美しいデザイン。
+🌙 **GeppakuLab Random System** は、バーチャルユーチューバー **月白 累 (Geppaku Lui)** のために特別に開発された乱数生成プログラムです。
 
 ## 🎯 特徴
 - **乱数生成:** 範囲と数をカスタマイズ可能な乱数生成。
-- **ソートオプション:** 昇順および降順のソート可能。
-- **重複制御:** 重複の許可/禁止オプション。
-- **ユーザーフレンドリーなUI:** クリーンで直感的なデザイン、滑らかなアニメーション付き。
-- **最小解像度ロック:** ユーザーが定義した最小解像度以下のリサイズを防止。
+- **ソートオプション:** 昇順または降順で結果を並び替え可能。
+- **重複制御:** 結果の重複を許可または禁止。
+- **最小解像度ロック:** 定義された最小解像度以下にウィンドウをリサイズすることを防止。
+
+---
+
+## 📽️ デモ動画
+
+### 🎥 **乱数生成プログラムの紹介**
+[![GeppakuLab ランダム·システム Showcase](https://img.youtube.com/vi/j1sl5BKaaOg/0.jpg)](https://youtu.be/j1sl5BKaaOg)
+
+### 🎥 **設定とオプションの紹介**
+[![Settings Showcase](https://img.youtube.com/vi/RKB7lpRkYCU/0.jpg)](https://youtu.be/RKB7lpRkYCU)
+
+---
 
 ## 📦 インストール方法
-1. 最新バージョンを [Releases](https://github.com/username/repo/releases) セクションからダウンロードしてください。
-2. 提供された `.exe` ファイルを実行。
+1. 最新バージョンを [Releases](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases) セクションからダウンロードしてください。
+2. 提供された `GeppakuLab_RandomSystem_Installer.exe` ファイルを実行してください。
 3. 画面の指示に従ってインストールを完了してください。
 
-## 🛠️ 必要条件
-- Windows 10 以降
-- .NET Framework 4.7.2 以上
+---
 
-## 🔒 セキュリティとコードサイン
-このソフトウェアはテスト用としてローカル証明書で自己署名されています。Windows SmartScreen の警告が表示された場合、提供されている **SHA-256 ハッシュ** を使用してファイルの整合性を確認できます。
+## 🛠️ システム要件
+- **オペレーティングシステム:** Windows 10 以上
+- **ランタイム:** .NET Framework 4.7.2 以上
+
+---
 
 ## 📖 使用方法
-1. **範囲の設定:** 乱数の最小値と最大値を設定します。
-2. **数量設定:** 生成する数を選択します。
-3. **生成:** `生成` ボタンをクリックして乱数を生成。
-4. **ソートおよび再ソート:** ドロップダウンでソートオプションを選択。
-5. **結果のコピー:** 生成された乱数をクリップボードにコピー。
+
+1. **範囲設定:** 乱数の最小値と最大値を設定します。
+2. **数設定:** 生成する乱数の数を選択します。
+3. **生成:** `生成` ボタンをクリックして乱数を生成します。
+4. **ソートと再ソート:** ドロップダウンメニューで並び替えオプション（昇順または降順）を選択します。
+5. **結果のコピー:** 生成された乱数をクリップボードにコピーします。
+
+---
 
 ## 🛡️ ライセンス
-このプロジェクトは **MITライセンス** で公開されています。詳細は `LICENSE` ファイルを参照してください。
+このプロジェクトは **MIT ライセンス** の下で公開されています。詳細については `LICENSE` ファイルをご覧ください。
 
-## 🎁 特別なギフト
-このプロジェクトは、**Geppaku Lui (月白 累)** と **GeppakuLab コミュニティ** への愛と献身を込めて作成されました。
+---
 
 ## 💌 クレジット
-- 開発者: [설령화(雪霊花_ソルリョンファ)-SLH](https://github.com/username)
-- インスパイア元: [Geppaku Lui (月白 累)](https://www.youtube.com/@Geppaku_Lui)
+- **開発者:** [설령화(雪霊花)-SLH](https://x.com/slh3951)
+- **Designed for:** [Geppaku Lui (月白 累)](https://www.youtube.com/@Geppaku_Lui)
+
+---
+
+## 🚀 Unity プロジェクトの始め方
+
+### 1. 必要なアセットのインポート
+1. [Modern UI Pack](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) を Unity Asset Store から購入してダウンロードしてください。
+2. Unity プロジェクトに Modern UI Pack をインポートしてください。
+
+### 2. プリセットの適用
+1. Unity エディタの上部メニューから **Tools > Modern UI Pack > Apply UIManager Preset** をクリックしてください。
+2. **プリセットが自動適用されない場合:**
+   - `Assets/Modern UI Pack/Resources/` ディレクトリに移動し、`MUIP Manager.asset` を選択。
+   - **Inspector** にプリセットファイルをドラッグ＆ドロップしてください。
+
+### 3. サンプルシーンを実行
+1. 提供されたサンプルシーン (`Assets/Scenes/GeppakuLabRandomSystem.unity`) を開いてください。
+2. Unity エディタで **Play** ボタンを押してプロジェクトを実行してください。
+
+---
+
+## ⚠️ Unity プロジェクト使用時の注意
+
+### 📌 必須アセットの確認
+- 必要なすべてのパッケージとアセットがインポートされていることを確認してください。
+- 必須アセット: [Modern UI Pack](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717)（購入が必要）。
+
+### 📌 Unity バージョン互換性
+- 推奨 Unity バージョン: **6000.0.32f1 以上**。
+- それより古いバージョンでは一部の機能が正しく動作しない可能性があります。
+
+### 📌 シーン設定の注意
+- 提供されたサンプルシーンをそのまま使用してください。
+- ⚠️ **注意:** シーン設定を変更すると、予期しない動作が発生する可能性があります。
+
+### 📌 プラグイン設定
+- プロジェクトで使用されているプラグインの設定を変更しないでください。
+
+### 📌 定期保存を推奨
+- データ損失を防ぐため、定期的にプロジェクトを保存してください。
+
+---
+
+## 📦 Modern UI Pack の使用ガイド
+
+このプロジェクトでは、Unity Asset Store の [**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) を使用しています。
+
+### ✅ **UIManager プリセット適用ガイド**
+
+**MUIP Manager** プリセットが自動的に適用されない場合、以下の手順を実行してください。
+
+### 📌 **適用方法:**
+
+1. **Unity エディタメニュー:**
+   - `Tools > Modern UI Pack > Apply UIManager Preset` に移動。
+2. **自動適用:**
+   - `UIManager` プリセットが `MUIP Manager` スクリプタブルオブジェクトに適用されます。
+3. **成功確認:**
+   - コンソールに `Successfully applied 'UIManager' to 'MUIP Manager'` メッセージが表示されることを確認してください。
+
+### 🛠️ **手動適用方法:**
+
+- プリセットが自動適用されない場合:
+  1. `Assets/Modern UI Pack/Resources/` に移動。
+  2. `MUIP Manager.asset` を選択し、**Inspector** にプリセットファイルを手動でドラッグしてください。
+
+### 🚀 **追加情報:**
+
+- `.gitignore` 設定により、有料アセットの元ファイルは含まれておらず、`.meta` ファイルのみが提供されます。
+- プロジェクトを正常に実行するには、[**Modern UI Pack**](https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-201717) を購入してインポートしてください。
+
+---
+
+## 📝 プロジェクト構成
+```plaintext
+Assets/
+├── Scripts/                 # 乱数システムのコアロジック
+├── UIManager                # UI 一貫性のためのプリセットファイル
+└── Scenes/                  # サンプルシーン
+```
+
+---
+
+## 🛠️ 開発ノート
+### 主な課題と解決策
+- **ボタンスパム問題:** レスポンスの良い UI 操作を維持するためにデバウンスロジックを実装。
+- **UI リセットロジック:** アクティブなオブジェクトのみ選択的にクリアできるよう `ClearScrollArea` メソッドを強化。
+- **プリセット自動適用:** 共有プロジェクトで UI プリセットの一貫性を保つため、自動化スクリプトを実装。
+
+---
+
+## 💬 貢献方法
+新機能の追加やバグ修正のためにリポジトリをフォークし、プルリクエストを作成してください。大幅な変更の場合は、アイデアを議論するために最初に issue を作成してください。
+
+---
+
+## 📝 ライセンス
+このプロジェクトは MIT ライセンスの下で提供されています。詳細については `LICENSE` ファイルをご覧ください。
+
+---
+
+## 📞 お問い合わせ
+お問い合わせは以下のメールアドレスにご連絡ください: [slh3951@gmail.com]
+
+---
 
 **GeppakuLab Random System をご利用いただきありがとうございます！** 🌙
 
