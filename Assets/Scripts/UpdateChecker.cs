@@ -3,7 +3,6 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using Michsky.MUIP;
-using Newtonsoft.Json.Linq;
 using UnityEngine;
 
 public class UpdateChecker : MonoBehaviour
@@ -29,11 +28,11 @@ public class UpdateChecker : MonoBehaviour
             try
             {
                 File.Delete(downloadPath);
-                Debug.Log("다운로드된 설치 파일이 삭제되었습니다.\nDownloaded installer file has been deleted.");
+                Debug.Log("ダウンロードされたインストーラーファイルが削除されました。\nDownloaded installer file has been deleted.");
             }
             catch (Exception ex)
             {
-                Debug.LogWarning($"파일 삭제 중 오류 발생: {ex.Message}\nError while deleting file: {ex.Message}");
+                Debug.LogWarning($"ファイル削除中にエラー発生: {ex.Message}\nError while deleting file: {ex.Message}");
             }
         }
     }
@@ -42,7 +41,7 @@ public class UpdateChecker : MonoBehaviour
     {
         // 현재 버전 및 다운로드 경로 초기화
         currentVersion = Application.version; // Unity의 Player Settings에서 설정된 버전
-        downloadPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "GeppakuLab_RandomSystem_Installer.exe");
+        downloadPath = Path.Combine(Path.GetTempPath(), "GeppakuLab_RandomSystem_Installer.exe");
 
         // 업데이트 확인 실행
         await CheckForUpdate();
@@ -68,9 +67,9 @@ public class UpdateChecker : MonoBehaviour
             if (response.IsSuccessStatusCode)
             {
                 string responseBody = await response.Content.ReadAsStringAsync();
-                JObject releaseInfo = JObject.Parse(responseBody);
+                var releaseInfo = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(responseBody);
 
-                latestVersion = releaseInfo["tag_name"]?.ToString();
+                //latestVersion = releaseInfo.tag_name.ToString();
                 if (!string.IsNullOrEmpty(latestVersion) && latestVersion.StartsWith("v"))
                 {
                     latestVersion = latestVersion.Substring(1); // 'v' 제거
@@ -78,7 +77,7 @@ public class UpdateChecker : MonoBehaviour
 
                 if (!string.IsNullOrEmpty(latestVersion) && latestVersion != currentVersion)
                 {
-                    downloadUrl = releaseInfo["assets"]?[0]?["browser_download_url"]?.ToString();
+                    //downloadUrl = releaseInfo["assets"]?[0]?["browser_download_url"]?.ToString();
                     if (!string.IsNullOrEmpty(downloadUrl))
                     {
                         ShowConfirmWindow($"新しいバージョン {latestVersion} が見つかりました。\nWould you like to update to version {latestVersion}?");
@@ -151,21 +150,20 @@ public class UpdateChecker : MonoBehaviour
     {
         if (!File.Exists(installerPath))
         {
+            Debug.LogError($"Installer not found at path: {installerPath}");
             ShowInstallWindow("インストーラが見つかりませんでした。\nInstaller file not found.");
             installWindow.confirmButton.gameObject.SetActive(true); // 버튼 활성화
             return;
         }
 
-        Debug.Log($"Attempting to start installer via command line: {installerPath}");
+        Debug.Log($"Installer found at path: {installerPath}");
+        Debug.Log($"Attempting to start installer...");
 
         var processInfo = new System.Diagnostics.ProcessStartInfo
         {
-            FileName = "cmd.exe",
-            Arguments = $"/C start \"\" \"{installerPath}\"",
-            UseShellExecute = false,
-            RedirectStandardOutput = true,
-            RedirectStandardError = true,
-            CreateNoWindow = true
+            FileName = installerPath, // 설치 파일 직접 실행
+            UseShellExecute = true,  // Shell 실행 사용
+            Verb = "runas"           // 관리자 권한 요청
         };
 
         try
@@ -173,12 +171,12 @@ public class UpdateChecker : MonoBehaviour
             var process = System.Diagnostics.Process.Start(processInfo);
             if (process == null)
             {
-                Debug.LogError("Failed to start installer process via command line.");
+                Debug.LogError("Failed to start the installer process.");
                 ShowInstallWindow("インストーラの実行に失敗しました。\nFailed to start the installer process.");
             }
             else
             {
-                Debug.Log("Installer started successfully via command line.");
+                Debug.Log("Installer started successfully.");
                 Application.Quit(); // 현재 프로그램 종료
             }
         }
@@ -190,8 +188,8 @@ public class UpdateChecker : MonoBehaviour
         }
         catch (Exception ex)
         {
-            Debug.LogError($"Unexpected error while starting installer via command line: {ex.Message}");
-            ShowInstallWindow($"予期しないエラーが発生しました: {ex.Message}\nUnexpected error occurred: {ex.Message}");
+            Debug.LogError($"Unexpected error of type {ex.GetType().Name}: {ex.Message}");
+            ShowInstallWindow($"予期しないエラーが発生しました: {ex.GetType().Name} - {ex.Message}\nUnexpected error occurred: {ex.GetType().Name} - {ex.Message}");
             installWindow.confirmButton.gameObject.SetActive(true); // 버튼 활성화
         }
     }
@@ -242,20 +240,9 @@ public class UpdateChecker : MonoBehaviour
 
     private void HandleException(Exception ex)
     {
-        string userMessage;
-
-        if (ex is WebException)
-        {
-            userMessage = "ネットワークエラーが発生しました。\nNetwork error occurred.";
-        }
-        else if (ex is IOException)
-        {
-            userMessage = "ファイル操作中にエラーが発生しました。\nFile operation error occurred.";
-        }
-        else
-        {
-            userMessage = $"予期しないエラーが発生しました: {ex.GetType().Name}\nUnexpected error occurred: {ex.GetType().Name}";
-        }
+        string userMessage = ex is WebException
+            ? "ネットワークエラーが発生しました。\nNetwork error occurred."
+            : $"予期しないエラーが発生しました: {ex.GetType().Name}\nUnexpected error occurred: {ex.GetType().Name}";
 
         ShowInstallWindow(userMessage);
     }
