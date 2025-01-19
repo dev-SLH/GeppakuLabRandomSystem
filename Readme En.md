@@ -45,6 +45,31 @@
 
 ---
 
+## 🔄 Automatic Update Feature (v1.1.0+)
+Starting from **v1.1.0**, GeppakuLab Random System supports automatic updates within the program.  
+This allows you to get the latest version without visiting GitHub.
+
+### 📖 How to Use
+1. **🚀 Program Launch**  
+   Upon launch, the program automatically checks for updates.  
+   If prompted for network permission, please allow it.
+
+2. **🔔 Update Confirmation**  
+   If a new version is available, an update confirmation screen will appear.  
+   Click the **Confirm button** to download the latest version, and the installer folder will automatically open.
+
+3. **📂 Complete Installation**  
+   Run the downloaded installer to complete the installation.  
+   *Before proceeding with the installation, please close the currently running program.*
+
+---
+
+## 🛠️ Existing Method
+If you prefer manual updates, please visit the GitHub releases page.  
+🔗 [GitHub Releases Page](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases)
+
+---
+
 ## 🛡️ License
 This project is licensed under the **MIT License**. For details, see the `LICENSE` file.
 
