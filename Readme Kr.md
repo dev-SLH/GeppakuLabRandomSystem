@@ -69,7 +69,8 @@
 ---
 
 ## 🛠️ 기존 방식
-수동으로 업데이트를 진행하려면 [Releases](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases) 페이지에서 최신 인스톨러를 다운로드하세요.
+수동으로 업데이트를 진행하려면 Releases 페이지에서 최신 인스톨러를 다운로드하세요.  
+🔗 [GitHub Releases](https://github.com/dev-SLH/GeppakuLabRandomSystem/releases)
 
 ---
 
